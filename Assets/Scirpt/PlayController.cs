@@ -15,9 +15,11 @@ public class PlayController : MonoBehaviour
 
     public Rigidbody2D bullet;
     
+    
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
@@ -29,12 +31,11 @@ public class PlayController : MonoBehaviour
         {
             rb2D.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow, 5);
             RaycastHit2D hit = Physics2D.GetRayIntersection( ray , Mathf.Infinity );
-            
             if (hit.collider != null)
             {
                 target.transform.position = new Vector2(hit.point.x, hit.point.y);
@@ -48,7 +49,6 @@ public class PlayController : MonoBehaviour
             }
         }
     }
-    
     Vector2 CalculateProjectile(Vector2 origin, Vector2 targetPoint, float time)
     {
         Vector2 distance = targetPoint - origin;
