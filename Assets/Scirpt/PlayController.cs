@@ -16,12 +16,12 @@ public class PlayController : MonoBehaviour
     public GameObject target;
 
     public Rigidbody2D bullet;
+
     
     
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        
     }
 
     void Update()
@@ -29,7 +29,7 @@ public class PlayController : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
         rb2D.velocity = new Vector2(move * speed, rb2D.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             rb2D.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
         }
