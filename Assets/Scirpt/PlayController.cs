@@ -29,7 +29,7 @@ public class PlayController : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
         rb2D.velocity = new Vector2(move * speed, rb2D.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || (Input.GetKeyDown(KeyCode.W)))
         {
             rb2D.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
         }

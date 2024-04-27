@@ -10,7 +10,7 @@ public class Bomb : MonoBehaviour
     {
         if (col.tag == "Building")
         {
-            Score.score += 1;
+            Score.score += 10;
             Destroy(gameObject);
             playExplosion();
         }
