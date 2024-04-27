@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6136455024399673470}
   - component: {fileID: 4782191355130114500}
   - component: {fileID: 6325132397345420281}
-  - component: {fileID: 2973619865923695494}
+  - component: {fileID: -3145037572620599272}
   m_Layer: 0
   m_Name: Gold 0
   m_TagString: Bomb
@@ -139,7 +139,7 @@ PolygonCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -185,16 +185,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2973619865923695494
-MonoBehaviour:
+--- !u!249 &-3145037572620599272
+AreaEffector2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2682789957551369697}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7229dd46b905244999296fe1ce524ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 8347169756823686292, guid: a8ccbbc27edbb274a974dc3d92a49b29, type: 3}
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 0
+  m_ForceMagnitude: 10
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
