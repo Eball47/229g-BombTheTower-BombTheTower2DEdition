@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fdebad40-1aa8-4a4b-963a-4d47c6aa2ede" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Material/Explosive.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Material/Explosive.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Material/Target-removebg-preview.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Material/Target-removebg-preview.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SceneManager/Credit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../SceneManager/Credit.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SceneManager/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../SceneManager/GamePlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scirpt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scirpt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bomb.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CursorManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CursorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,6 +49,7 @@
       <workItem from="1714212273697" duration="2931000" />
       <workItem from="1714217686200" duration="3765000" />
       <workItem from="1714240499023" duration="7000" />
+      <workItem from="1714263093090" duration="45000" />
     </task>
     <servers />
   </component>
